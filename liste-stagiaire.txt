@@ -1,2 +1,30 @@
 charlemagne jerome
+<<<<<<< HEAD
 Emmanuel Caron
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+valentin legrix
+>>>>>>> f170628b781078c528f3057c850420469c99dc33
