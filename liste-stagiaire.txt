@@ -1,5 +1,13 @@
+
+Dalian tillier 24
 charlemagne jerome
+<<<<<<< HEAD
 thierry rocket
+=======
+Emmanuel Caron
+Allan Averlan
+
+>>>>>>> d6490af74fc00e1a359263e633549f397145ac45
 
 
 
@@ -21,6 +29,3 @@ thierry rocket
 
 
 
-
-
-valentin legrix
