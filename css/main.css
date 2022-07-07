@@ -2,6 +2,13 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow: hidden;
+}
+
+header {
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.375);
+    padding: 2%;
 }
 
 main {
