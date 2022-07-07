@@ -1,13 +1,53 @@
-header, .header {
+header {
+    background-image:url(../img/Marina_banner.jpg);
+    width: 1199px;
+    height: 376px;
+}
+
+img {
+    height: 156px;
+    width: 141px;
+    position: absolute;
+    margin-top: 48px;
+    margin-left: 264px;
+}
+
+@font-face {
+    font-family:'Coders_Crux2-Regular' ;
+    src: url(../fonts/CodersCrux2Regular-grnR.ttf);
+}
+
+h1 {
+    font-family: 'Coders_Crux2-Regular';
+    position: absolute;
+    margin-left: 745px;
+    margin-top: 82px;
+}
+
+/*image et informations header centrées
+    header, .header {
     display: flex;
     text-align: center;
     align-items: center;
     flex-direction: column;
     padding:2%;
+} */
+
+
+.table {
+    font-family: 'Coders_Crux2-Regular';
+    font-weight:bold;
+    border:outset grey 3px;
+    text-align:center;
+    border-collapse: collapse;
+    position: absolute;
+    margin-left: 636px;
+    margin-top: 180px;
 }
 
-
 table {
+    font-family: 'Coders_Crux2-Regular';
+    font-weight:bold;
     border:outset grey 3px;
     text-align:center;
     border-collapse: collapse;
