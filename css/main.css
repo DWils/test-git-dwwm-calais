@@ -2,7 +2,6 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow: hidden;
     background-image: url(../img/fond.png);
     background-repeat: no-repeat;
     background-size: cover;
