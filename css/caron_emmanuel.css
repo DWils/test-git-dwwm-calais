@@ -1,4 +1,4 @@
-table {
+.table {
 	border: 3px solid black;
 	font-family: arial, sans-serif;
 	border-collapse: collapse;
@@ -6,16 +6,20 @@ table {
 	margin-bottom: 50px;
 }
 
-td,
-th {
+.table--item {
 	border: 1px solid #dddddd;
 	text-align: center;
 	padding: 8px;
 }
-th {
+
+.table--item--head {
 	background-color: #dddddd;
 }
 
-tr :first-of-type {
+.table--row :first-of-type {
 	text-align: left;
+}
+.container{
+	margin-left: 10%;
+	margin-right: 10%;
 }
