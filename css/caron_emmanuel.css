@@ -23,3 +23,10 @@
 	margin-left: 10%;
 	margin-right: 10%;
 }
+.d-inline-block{
+	display: inline-block;
+}
+
+.ml-1{
+	margin-left: 1rem;
+}
