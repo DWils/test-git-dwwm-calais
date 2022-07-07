@@ -1,0 +1,119 @@
+@font-face {
+  font-family: BebasNeue;
+  src: url(../polices/BebasNeue-Regular.woff2);
+}
+*{
+  font-family: BebasNeue;}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./wood.png);
+  
+}
+.titre {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 60px;
+  color: white;
+}
+
+nav {
+  text-align: center;
+}
+
+ul {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 98%;
+}
+
+li {
+  list-style-type: none;
+  width: 8%;
+  border-radius: 10%;
+  transition: all 1s;
+  background-image: url(./img/wood\ -\ Copie.png);
+  padding: 1%;
+}
+
+li:hover {
+  transform: scale(1.2);
+  transition: all 1s;
+}
+img:hover {
+  transform: scale(1.2);
+  transition: all 1s;
+}
+
+img {
+  max-width : 100%;
+  height : auto;
+  }
+
+section {
+  display: inline-flex;
+  width: 100%;
+  margin: 2% auto;
+  text-align: center;
+  justify-content: space-between;
+}
+
+div {
+  border-radius: 10%;
+  width: 15%;
+  margin: 0 auto;
+  padding: 1%;
+  background-image: url(./img/wood\ -\ Copie.png);
+}
+p {
+  text-align: center;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  text-size-adjust: 30px;
+}
+
+footer div {
+  text-align: center;
+  width: 80%;
+  padding: to 1%;
+  background-color: white;
+  
+}
+
+h1,
+h4 {
+  color: rgb(0, 0, 0);
+}
+
+h4 {
+  margin-top: 2%;
+}
+article {
+  size: 30px;
+}
+
+h1 {
+  text-align: center;
+  color: #2E8DCD;
+  font-size: 50px;
+}
+.retour
+{
+  text-align: center;
+  color: #2E8DCD;
+  font-size: 30px;
+}
+header,a{
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.9rem;
+  color: #2E8DCD;
+}

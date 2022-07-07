@@ -2,8 +2,58 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-image: url(../img/fond.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 2%;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    border-bottom: 3px solid black;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    min-height: 100%;
+    position: relative;
+    margin-bottom: 5%;
+}
+
+#container {
+    display: inline-flex;
+    width: 80%;
+    padding: 3%;
+    justify-content: center;
+    gap: 5%;
+    flex-flow: row wrap;
+    gap: 50px;
+    ;
+}
+
+div {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.402);
+    width: 25%;
+    border-radius: 8%;
+    text-align: center;
+    padding: 1%;
+    background: white;
 }
 
 img {
     border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    transition: all 0.5s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.2);
+    transition: all 0.5s ease-in-out;
 }
