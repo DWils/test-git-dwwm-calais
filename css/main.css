@@ -11,6 +11,14 @@ header {
     padding: 2%;
 }
 
+header img {
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    width: 350px;
+    height: 200px;
+}
+
 main {
     display: flex;
     justify-content: space-evenly;
@@ -39,14 +47,14 @@ div {
     padding: 1%;
 }
 
-img {
+div img {
     border-radius: 50%;
     width: 120px;
     height: 120px;
     transition: all 0.5s ease-in-out;
 }
 
-img:hover {
+div img:hover {
     transform: scale(1.2);
     transition: all 0.5s ease-in-out;
 }
