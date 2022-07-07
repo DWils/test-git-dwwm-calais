@@ -3,20 +3,15 @@ body {
     padding: 0;
     box-sizing: border-box;
     overflow: hidden;
+    background-image: url(../img/fond.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header {
     text-align: center;
-    background-color: rgba(128, 128, 128, 0.375);
+    background-color: rgba(255, 255, 255, 0.568);
     padding: 2%;
-}
-
-header img {
-    position: absolute;
-    top: 1%;
-    left: 1%;
-    width: 350px;
-    height: 200px;
 }
 
 main {
@@ -31,12 +26,12 @@ main {
 #container {
     display: inline-flex;
     width: 80%;
-    margin-top: 1%;
     padding: 3%;
     justify-content: center;
     gap: 5%;
     flex-flow: row wrap;
-    gap: 30px;
+    gap: 50px;
+    ;
 }
 
 div {
@@ -45,16 +40,17 @@ div {
     border-radius: 8%;
     text-align: center;
     padding: 1%;
+    background: white;
 }
 
-div img {
+img {
     border-radius: 50%;
     width: 120px;
     height: 120px;
     transition: all 0.5s ease-in-out;
 }
 
-div img:hover {
+img:hover {
     transform: scale(1.2);
     transition: all 0.5s ease-in-out;
 }
