@@ -1,0 +1,22 @@
+header, .header {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    padding:2%;
+}
+
+
+table {
+    border:outset grey 3px;
+    text-align:center;
+    border-collapse: collapse;
+}
+
+td, th {
+    border:outset rgb(14, 156, 156) 1px;
+}
+
+footer {
+    text-align: center;
+}
