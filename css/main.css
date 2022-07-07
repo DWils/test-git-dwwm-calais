@@ -9,8 +9,12 @@ body {
 
 header {
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.568);
+    background-color: rgb(255, 255, 255);
     padding: 2%;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    border-bottom: 3px solid black;
 }
 
 main {
