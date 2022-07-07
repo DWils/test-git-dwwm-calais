@@ -12,18 +12,14 @@
         position: absolute;
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: center;
+        opacity: 0.9;
         z-index: -1;
         width: 100%;
         height: 100%;
-        margin-top: -25px;
       }
       .contenu {
         position: relative;
         text-align: center;
-      }
-      body {
-        font-size: 22px;
       }
       .info {
         margin-top: 20px;
@@ -33,7 +29,20 @@
         background-repeat: no-repeat;
         color: white;
       }
+      label {
+        font-size: 30px;
+      }
+      .info>p {
+        margin-top: -20px;
+      }
+      .exp, .formation, .compet, footer {
+        border-top: 3px dotted white;
+      }
+      textarea {
+        text-align: left;
+      }
       a {
+        text-shadow: 1px 1px 2px black;
         text-decoration: none;
         color: white;
       }
@@ -43,34 +52,63 @@
       }
       article {
         font-weight: bold;
+        text-shadow: 1px 1px 2px black;
         color: white;
         text-align: center;
-        margin-bottom: 25%;
-      }      
+      }
     </style>
   </head>
   <body>
-    <div class="fond">
-    </div>
+    <div class="fond"></div>
     <div class="contenu">
       <main>
         <article>
-        <div class="info">
-      <img src="../img/val.gif" width=25% height=25%/>
-      <p>
-        <br />NOM: LEGRIX<br />
-        Prénom: Valentin <br />
-        Âge: 30 ans<br />
-      </p>
-        </div>
-      </article>
-    </main>
-    <footer>
-      <a href="https://github.com/MrDracoboy62">Mon lien Github</a>
-      <form action="../index.html">
-      <br /><button type="submit">Retourner sur l'index</button>
-      </form>
-    </footer>
-  </div>
+          <div class="info">
+            <img src="../img/val.gif" width="25%" height="25%" />
+            <p>
+              <br />NOM: LEGRIX<br />
+              Prénom: Valentin <br />
+              Niveau: 30 <br />
+            </p>
+          </div>
+          <div class="exp">
+            <form>
+              <label for="expérience">Expérience :</label><br />
+              <textarea name="expérience" readonly="true" rows="4" cols="75">
+A 5 niveaux de l'évolution, prêt à prendre son envol -
+Plus lent à courir qu'à parler, mais efficace -
+Une fois lancé, vous êtes piégé -
+Champion régional du lancer de sable.
+              </textarea>
+            </form>
+          </div>
+          <div class="formation">
+            <label for="expérience">Formation :</label><br />
+              <textarea name="expérience" readonly="true" rows="5" cols="75">
+Né à l'Est de Vermilava, dans un micro-désert -
+Elevé à même le sable -
+Capturé, aujourd'hui en constant entrainement depuis 2 mois -
+Encore quelques mois d'entrainement, au minimum jusqu'à fin
+d'année pour pouvoir maitriser son pouvoir actuel.
+              </textarea>
+          </div>
+          <div class="compet">
+            <label for="expérience">Compétence :</label><br />
+              <textarea name="expérience" readonly="true" rows="8" cols="75">
+1. Feinte, type ténèbres, physique, 60 de puissance: touche à coup sûr
+2. Telluriforce, type sol, spécial, 90 de puissance: peut baisser la défense spéciale de la cible
+3. Tempête de Sable, type roche, statut, invoque une météo durant 5 tours qui blesse les types non minéraux (autre que roche, sol ou acier). Booste la défense spéciale des type roche de 50%
+4. Mâchouille, type ténèbres, physique, 80 de puissance: peut baisser la défense spéciale de la cible
+              </textarea>
+          </div>
+        </article>
+      </main>
+      <footer>
+        <a href="https://github.com/MrDracoboy62">Mon lien Github</a>
+        <form action="../index.html">
+          <br /><button type="submit">Retourner sur l'index</button>
+        </form>
+      </footer>
+    </div>
   </body>
 </html>
