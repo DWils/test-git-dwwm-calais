@@ -29,11 +29,17 @@
         background-repeat: no-repeat;
         color: white;
       }
+      label {
+        font-size: 30px;
+      }
       .info>p {
         margin-top: -20px;
       }
       .exp, .formation, .compet, footer {
         border-top: 3px dotted white;
+      }
+      textarea {
+        text-align: left;
       }
       a {
         text-shadow: 1px 1px 2px black;
@@ -66,41 +72,34 @@
             </p>
           </div>
           <div class="exp">
-            <p>Expérience: <br />
-            
-              * A 5 niveaux de l'évolution, prêt à prendre son envol;<br />
-              * Plus lent à courir qu'à parler, mais efficace;<br />
-              * Une fois lancé, vous êtes piégé;<br />
-              * Champion régional du lancer de sable.</p>
+            <form>
+              <label for="expérience">Expérience :</label><br />
+              <textarea name="expérience" readonly="true" rows="4" cols="75">
+A 5 niveaux de l'évolution, prêt à prendre son envol -
+Plus lent à courir qu'à parler, mais efficace -
+Une fois lancé, vous êtes piégé -
+Champion régional du lancer de sable.
+              </textarea>
+            </form>
           </div>
           <div class="formation">
-            <p>Formation: <br />
-            
-                - Né à l'Est de Vermilava, dans un micro-désert. Elevé à même le
-                sable.<br />
-              
-                - Capturé, aujourd'hui en constant
-                entrainement depuis 2 mois;<br />
-              
-                - Encore quelques mois d'entrainement, au minimum jusqu'à fin
-                d'année pour pouvoir maitriser son pouvoir actuel.
-              </p>
+            <label for="expérience">Formation :</label><br />
+              <textarea name="expérience" readonly="true" rows="5" cols="75">
+Né à l'Est de Vermilava, dans un micro-désert -
+Elevé à même le sable -
+Capturé, aujourd'hui en constant entrainement depuis 2 mois -
+Encore quelques mois d'entrainement, au minimum jusqu'à fin
+d'année pour pouvoir maitriser son pouvoir actuel.
+              </textarea>
           </div>
           <div class="compet">
-            <p>Compétences: <br />
-            
-                1. Feinte, type ténèbres, physique, 60 de puissance: touche à coup
-                sûr<br />
-              
-                2. Telluriforce, type sol, spécial, 90 de puissance: peut baisser
-                la défense spéciale de la cible<br />
-              
-                3. Tempête de Sable, type roche, statut, invoque une météo durant 5
-                tours<br />qui blesse les types non minéraux (autre que roche, sol ou
-                acier). Booste la défense spéciale des type roche de 50%<br />
-              
-                4. Mâchouille, type ténèbres, physique, 80 de puissance: peut
-                baisser la défense spéciale de la cible</p>
+            <label for="expérience">Compétence :</label><br />
+              <textarea name="expérience" readonly="true" rows="8" cols="75">
+1. Feinte, type ténèbres, physique, 60 de puissance: touche à coup sûr
+2. Telluriforce, type sol, spécial, 90 de puissance: peut baisser la défense spéciale de la cible
+3. Tempête de Sable, type roche, statut, invoque une météo durant 5 tours qui blesse les types non minéraux (autre que roche, sol ou acier). Booste la défense spéciale des type roche de 50%
+4. Mâchouille, type ténèbres, physique, 80 de puissance: peut baisser la défense spéciale de la cible
+              </textarea>
           </div>
         </article>
       </main>
